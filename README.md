@@ -1,2 +1,2 @@
 # TravelingSpot
-A service that recommends traveling spot.
+A service that recommends traveling spot about Seoul.
