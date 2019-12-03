@@ -1,16 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
-
+# 모듈 접근
 
 from selenium import webdriver
 import time
 import pandas as pd
 from pandas import DataFrame as df
-
-
-# In[11]:
 
 
 a = [] #리뷰데이터를 담는 리스트
@@ -33,7 +29,6 @@ for i in range(0,20,10):
 
         driver.find_elements_by_css_selector(".ulBlueLinks")[0].click()
         
-        data.to_excel("example.xls")
 
     
         for j in range(0,10,1):
