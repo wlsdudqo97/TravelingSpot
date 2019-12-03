@@ -30,7 +30,6 @@ for i in range(0,20,10):
         driver.find_elements_by_css_selector(".ulBlueLinks")[0].click()
         
 
-    
         for j in range(0,10,1):
             reviews = driver.find_elements_by_css_selector(".review-container")
             rating_code = reviews[j].find_element_by_css_selector(".ui_bubble_rating")
